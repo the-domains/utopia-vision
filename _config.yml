@@ -1,14 +1,26 @@
-layout_spectrum: 0.09148936
-typography_spectrum: 0.4255319
+layout_spectrum: 1
+name: 'Utopia Vision '
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.8917863
   brandStrength: 1
+  lightness: 0.8917863
   saturation: 0.1567692
   rhythmicContrast: 0.6226183
   brandColors:
-    - '#FFFFFF'
-    - '#393939'
-    - '#2C8FB5'
-    - '#1D9175'
-    - '#317FB5'
-name: 'Utopia Vision '
+    - '#2495C8'
+    - '#0F957C'
+    - '#19B1C0'
+    - '#000101'
+    - '#031310'
+typography_spectrum: 0.4255319
